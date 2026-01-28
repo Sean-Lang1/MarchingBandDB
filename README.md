@@ -21,6 +21,20 @@ This version loads **sample demo data** on first launch so the system can be exp
 
 After resetting, the application is ready for real use.
 
+### ▶ Run the Python GUI (from source)
+
+**Requirements**
+- Python 3.10+
+- PySide6
+
+**Install dependencies**
+``bash
+pip install -r python-gui/requirements.txt
+
+**Run the app**
+python python-gui/bandapp.py
+
+
 ## ⚙️ C++ Console Version (Systems Implementation)
 
 This is a lighter, console-based version built in **C++ with SQLite integration**. It focuses more on database operations and the system-level side of the project rather than user interface features.
@@ -30,3 +44,4 @@ It is intentionally more minimal and serves as a lower-level implementation of t
 ## Notes
 
 This project functions as a working prototype and portfolio piece. The Python version represents the primary user experience, while the C++ version demonstrates systems-level understanding and cross-language architecture.
+
