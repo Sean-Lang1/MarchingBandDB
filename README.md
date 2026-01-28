@@ -1,6 +1,6 @@
-# Marching Band Management System
+# 🎺 Marching Band Management System
 
-This project is a desktop system designed to manage marching band students, equipment assignments, and eligibility tracking. It was built to explore database design, GUI development, and systems programming across multiple languages in one connected project.
+This project is a desktop system designed to manage marching band students, equipment assignments, and eligibility tracking. It was designed with the structure and needs of **Florida A&M University’s Marching 100** in mind and built to explore database design, GUI development, and systems programming across multiple languages in one connected project.
 
 This repository contains **two versions** of the system:
 
