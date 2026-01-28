@@ -1,16 +1,32 @@
-# Marching Band Inventory & Compliance Manager
+# Marching Band Management System
 
-Desktop application built with Python and PySide6 for managing marching band students, instrument inventory, uniforms, and academic marching eligibility.
-Note: Requires Python 3.10+
+This project is a desktop system designed to manage marching band students, equipment assignments, and eligibility tracking. It was built to explore database design, GUI development, and systems programming across multiple languages in one connected project.
 
-## Features
-- Student roster management
-- Instrument, uniform, and shakos checkout systems
-- Compliance/Eligibility tracking (GPA, credits, dues)
-- CSV exports
-- Search and filtering
-- Undo function
-- Accessibility features (zoom & high contrast)
+This repository contains **two versions** of the system:
 
-## Tech Stack
-Python, PySide6 (Qt), and SQLite
+## 🖥 Python GUI Version (Primary)
+
+Built with **Python and PySide6**, this is the full desktop application and the main version of the project.
+
+**Features include**
+- Student roster management  
+- Instrument, uniform, and shako checkout tracking  
+- Eligibility tracking (GPA, credits, dues)  
+- Search, filtering, and CSV exports  
+- Accessibility options such as zoom scaling and high-contrast mode  
+
+This version loads **sample demo data** on first launch so the system can be explored right away. If you want to start fresh, the demo data can be cleared at any time through:
+
+**File → Reset Database**
+
+After resetting, the application is ready for real use.
+
+## ⚙️ C++ Console Version (Systems Implementation)
+
+This is a lighter, console-based version built in **C++ with SQLite integration**. It focuses more on database operations and the system-level side of the project rather than user interface features.
+
+It is intentionally more minimal and serves as a lower-level implementation of the same core idea.
+
+## Notes
+
+This project functions as a working prototype and portfolio piece. The Python version represents the primary user experience, while the C++ version demonstrates systems-level understanding and cross-language architecture.
