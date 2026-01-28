@@ -40,9 +40,10 @@ python python-gui/bandapp.py
 
 This is a lighter, console-based version built in C++ with SQLite. It focuses more on the raw database operations and the system-level side of the project rather than appealing user interface features.
 
-###Notes
+### Notes
 
 This project functions as a working prototype and portfolio piece. The Python version represents the primary user experience, while the C++ version demonstrates systems-level understanding and cross-language architecture.
+
 
 
 
