@@ -13,7 +13,11 @@ Built with **Python and PySide6**, this is the full desktop application and the 
 - Instrument, uniform, and shako checkout tracking  
 - Eligibility tracking (GPA, credits, dues)  
 - Search, filtering, and CSV exports  
-- Accessibility options such as zoom scaling and high-contrast mode  
+- Accessibility options such as zoom scaling and high-contrast mode
+
+### Application Preview
+
+![Main Application Window](screenshots/image (1).png)
 
 This version loads **sample demo data** on first launch so the system can be explored right away. If you want to start fresh, the demo data can be cleared at any time through:
 
@@ -43,6 +47,7 @@ This is a lighter, console-based version built in C++ with SQLite. It focuses mo
 ### Notes
 
 This project functions as a working prototype and portfolio piece. The Python version represents the primary user experience, while the C++ version demonstrates systems-level understanding and cross-language architecture.
+
 
 
 
