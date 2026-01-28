@@ -1,0 +1,3 @@
+PySide6 & Require Python 3.10+
+
+That's all!
